@@ -1,0 +1,16 @@
+{
+  "name": "web1508",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch assets/scss:assets/css",
+    "git": "git add --all && git commit -m'Deploy' && git push origin master && echo 'Repositorio atualizado com sucesso'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.54.4"
+  }
+}
